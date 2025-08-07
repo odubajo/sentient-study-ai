@@ -1,0 +1,6 @@
+streamlit
+requests
+langchain-community
+faiss-cpu
+sentence-transformers
+python-dotenv
