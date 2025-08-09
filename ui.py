@@ -7,7 +7,7 @@ def apply_custom_css():
 
 def sidebar_info():
     with st.sidebar:
-        st.image("sentient.jpg", use_column_width=True)
+        st.image("sentient.jpg", use_container_width=True)
         st.markdown("## 🤖 Sentient educator")
         st.markdown("*learn about sentient*")
 
