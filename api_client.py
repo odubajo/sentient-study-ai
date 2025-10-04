@@ -24,7 +24,7 @@ def call_gemini_api(prompt: str, use_json_schema: bool = False, schema: dict = N
                 "responseSchema": schema
             }
 
-        api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+        api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
 
         response = requests.post(api_url, json=payload, timeout=30)
 
